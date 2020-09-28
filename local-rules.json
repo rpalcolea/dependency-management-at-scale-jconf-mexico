@@ -11,13 +11,15 @@
   ],
   "deny": [],
   "reject": [
+
+  ],
+  "align": [],
+  "exclude": [
     {
       "module": "com.google.guava:guava:19.0",
       "reason" : "We don't like this version of Guava",
       "author" : "Example Person <person@example.org>",
       "date": "2020-04-19T16:49:30.394Z"
     }
-  ],
-  "align": [],
-  "exclude": []
+  ]
 }

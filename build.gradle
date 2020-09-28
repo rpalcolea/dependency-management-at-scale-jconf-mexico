@@ -12,6 +12,10 @@ repositories {
     }
 }
 
+dependencyLocking {
+    lockAllConfigurations()
+}
+
 dependencies {
     resolutionRules 'com.netflix.nebula:gradle-resolution-rules:latest.release'
     resolutionRules files('local-rules.json')
