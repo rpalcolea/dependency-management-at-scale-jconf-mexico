@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'groovy'
+}
+
+repositories {
+    jcenter()
+    maven {
+        url = 'repo'
+    }
+}
+
+dependencies {
+    implementation 'netflix:foo-client:latest.release'
+    implementation 'netflix:bar-client:latest.release'
+}
+
+application {
+    mainClassName = 'info.perezalcolea.dependency.management.App'
+}

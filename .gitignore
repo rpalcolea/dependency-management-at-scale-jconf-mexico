@@ -1,8 +1,14 @@
-**/build/
-**/.gradle/
+build/
+.gradle/
 .DS_Store
-**/out/
-*.idea/
+out/
+.idea/
 *.iml
 *.ipr
 *.iws
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
